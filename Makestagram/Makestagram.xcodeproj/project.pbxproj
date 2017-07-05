@@ -13,6 +13,8 @@
 		ACB4A1941F0BE0870050DD24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB4A1931F0BE0870050DD24 /* Main.storyboard */; };
 		ACB4A1961F0BE09B0050DD24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB4A1951F0BE09B0050DD24 /* LaunchScreen.storyboard */; };
 		ACB4A19A1F0BE0BA0050DD24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACB4A1991F0BE0BA0050DD24 /* GoogleService-Info.plist */; };
+		ACB4A19F1F0C0EA40050DD24 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB4A19E1F0C0EA40050DD24 /* Login.storyboard */; };
+		ACB4A1A51F0D405B0050DD24 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB4A1A41F0D405B0050DD24 /* LoginViewController.swift */; };
 		DF22445037367110B57B74E8 /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC83A81FC0CFD65CCD5063A /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		ACB4A1951F0BE09B0050DD24 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACB4A1971F0BE0A50050DD24 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACB4A1991F0BE0BA0050DD24 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ACB4A19E1F0C0EA40050DD24 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		ACB4A1A41F0D405B0050DD24 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AFC83A81FC0CFD65CCD5063A /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				ACB4A1911F0BE06F0050DD24 /* ViewController.swift */,
+				ACB4A1A41F0D405B0050DD24 /* LoginViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				ACB4A1931F0BE0870050DD24 /* Main.storyboard */,
+				ACB4A19E1F0C0EA40050DD24 /* Login.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -180,6 +186,7 @@
 				ACB4A1961F0BE09B0050DD24 /* LaunchScreen.storyboard in Resources */,
 				ACB4A19A1F0BE0BA0050DD24 /* GoogleService-Info.plist in Resources */,
 				AC7B91DC1F0AC78A00AA7D46 /* Assets.xcassets in Resources */,
+				ACB4A19F1F0C0EA40050DD24 /* Login.storyboard in Resources */,
 				ACB4A1941F0BE0870050DD24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB4A1A51F0D405B0050DD24 /* LoginViewController.swift in Sources */,
 				ACB4A1921F0BE06F0050DD24 /* ViewController.swift in Sources */,
 				AC7B91D51F0AC78A00AA7D46 /* AppDelegate.swift in Sources */,
 			);
