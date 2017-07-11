@@ -9,7 +9,7 @@
 import Foundation
 import FirebaseStorage
 import FirebaseDatabase
-
+import UIKit
 struct PostService {
     
     static func create(for image: UIImage) {
