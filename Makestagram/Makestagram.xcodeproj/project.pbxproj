@@ -13,6 +13,9 @@
 		AC05386E1F1408E8009FD2D2 /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05386D1F1408E8009FD2D2 /* MGPhotoHelper.swift */; };
 		AC0538711F150EE0009FD2D2 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0538701F150EE0009FD2D2 /* StorageService.swift */; };
 		AC0538731F1510AB009FD2D2 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0538721F1510AB009FD2D2 /* PostService.swift */; };
+		AC0538751F15295B009FD2D2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0538741F15295B009FD2D2 /* Post.swift */; };
+		AC0538771F15542F009FD2D2 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0538761F15542F009FD2D2 /* UIImage+Size.swift */; };
+		AC0538791F155936009FD2D2 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0538781F155936009FD2D2 /* StorageReference+Post.swift */; };
 		AC7B91D51F0AC78A00AA7D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B91D41F0AC78A00AA7D46 /* AppDelegate.swift */; };
 		AC7B91DC1F0AC78A00AA7D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7B91DB1F0AC78A00AA7D46 /* Assets.xcassets */; };
 		ACB4A1941F0BE0870050DD24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB4A1931F0BE0870050DD24 /* Main.storyboard */; };
@@ -37,6 +40,9 @@
 		AC05386D1F1408E8009FD2D2 /* MGPhotoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGPhotoHelper.swift; path = Helpers/MGPhotoHelper.swift; sourceTree = "<group>"; };
 		AC0538701F150EE0009FD2D2 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		AC0538721F1510AB009FD2D2 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		AC0538741F15295B009FD2D2 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		AC0538761F15542F009FD2D2 /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
+		AC0538781F155936009FD2D2 /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
 		AC7B91D11F0AC78A00AA7D46 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7B91D41F0AC78A00AA7D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC7B91DB1F0AC78A00AA7D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -153,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				ACB4A1A61F0E93410050DD24 /* User.swift */,
+				AC0538741F15295B009FD2D2 /* Post.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -171,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				ACB4A1B01F1035B90050DD24 /* Storyboard+Utility.swift */,
+				AC0538761F15542F009FD2D2 /* UIImage+Size.swift */,
+				AC0538781F155936009FD2D2 /* StorageReference+Post.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -313,10 +322,13 @@
 				ACB4A1A51F0D405B0050DD24 /* LoginViewController.swift in Sources */,
 				AC05386C1F13F4F4009FD2D2 /* MainTabBarController.swift in Sources */,
 				ACB4A1AC1F0FF5FB0050DD24 /* UserService.swift in Sources */,
+				AC0538751F15295B009FD2D2 /* Post.swift in Sources */,
+				AC0538771F15542F009FD2D2 /* UIImage+Size.swift in Sources */,
 				AC0538681F13BFBF009FD2D2 /* HomeViewController.swift in Sources */,
 				AC05386E1F1408E8009FD2D2 /* MGPhotoHelper.swift in Sources */,
 				ACB4A1B11F1035B90050DD24 /* Storyboard+Utility.swift in Sources */,
 				AC05386A1F13BFD1009FD2D2 /* FindFriendsViewController.swift in Sources */,
+				AC0538791F155936009FD2D2 /* StorageReference+Post.swift in Sources */,
 				ACB4A1AF1F1035280050DD24 /* Constants.swift in Sources */,
 				AC0538731F1510AB009FD2D2 /* PostService.swift in Sources */,
 				ACB4A1AA1F0ECB9A0050DD24 /* CreateUsernameViewController.swift in Sources */,
