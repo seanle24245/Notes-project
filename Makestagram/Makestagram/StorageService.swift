@@ -27,7 +27,7 @@ struct StorageService {
                 return completion(nil)
             }
             
-            // 4
+            //4
             completion(metadata?.downloadURL())
         })
     }
